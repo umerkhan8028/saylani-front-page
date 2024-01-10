@@ -13,15 +13,18 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+   
 }
 main{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 h1{
    font-weight: 550;
    font-size: 40px;
+   flex-wrap: wrap;
 }
 h1 > b{
     text-decoration: none;
@@ -33,10 +36,12 @@ h3{
     color:  rgba(0,0,0,.85);
     line-height: 1.35;
     margin-bottom: 0.5em;
+    flex-wrap: wrap;
 }
 h3 > b{
     text-decoration: none;
     color: #0066b3;
+    flex-wrap: wrap;
     
 }
 p{
@@ -45,6 +50,7 @@ p{
     color: rgba(0, 0, 0, 0.726);
     line-height: 1.5715;
     font-size: 17px;
+    flex-wrap: wrap;
 }
 input{
     border: 1px solid black;
@@ -54,6 +60,7 @@ input{
     background-color: #ffffff;
     color: rgba(0, 0, 0, 0.685);
     font-size: 12px;
+    flex-wrap: wrap;
 }
 footer{
     margin-top: 50px;
@@ -64,4 +71,5 @@ footer{
     justify-content: center;
     padding: 30px;
     word-spacing: 5px;
+    flex-wrap: wrap;
 }
