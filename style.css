@@ -16,12 +16,14 @@ body {
    
 }
 .main{
+    maxwidth:100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.main2{
+.main2{  
+    maxwidth:100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
