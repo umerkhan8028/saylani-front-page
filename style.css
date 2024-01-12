@@ -15,20 +15,14 @@ body {
     flex-wrap: wrap;
    
 }
-.main{
-    maxwidth:100%;
+main{
+    minwidth:200px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.main2{  
-    maxwidth:100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
+
 h1{
    font-weight: 550;
    font-size: 40px;
